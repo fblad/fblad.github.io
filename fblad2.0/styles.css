@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.page {
+  font-family: "Oswald", "Arial", sans-serif;
+
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 1%;
+  font-size: 50%;
+  /* border: 3px solid red; */
+}
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #0066FF
+}
+h1 {
+  color: #0066FF
+}
+h1 {
+
+  font-weight: 700
+}
+.logo-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 20%;
+  /*border: 1px solid black;*/
+  /*padding-bottom: 5%; remove this later*/
+}
+.logo {
+  width: 33%;
+}
+.menu-container {
+  /*...*/
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15%;
+}
+.menu {
+  display: flex;
+  width: 33%;
+  border: 1px solid #fff;
+  justify-content: space-around;
+}
+.shop {
+  border: 3pt solid #EF7438;
+  background-color: #F2F2F2;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 5%;
+
+}
+.insta {
+  border: 3pt solid #FE8540;
+  background-color: #F2F2F2;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 5%;
+  font-weight: 700;
+}
+.about {
+  border: 3pt solid #96ACDD;
+  background-color: #F2F2F2;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 5%;
+}
+.footer-container {
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 1%
+}
+.footer {
+  color: gray;
+  font-family: 'Arial';
+  font-weight: 50
+  font-size: 6pt;
+
+}
